@@ -15,7 +15,6 @@ while (isNaN(arrayQuantity)){
  for (let i = 0; i < arrayQuantity; i++){
   for (let j = 0; j < 10; j++){
    numbersArray[j] = Math.floor(Math.random() * 100) + 1;
-   console.log(numbersArray[j])
   }
   console.log(numbersArray);
  }
